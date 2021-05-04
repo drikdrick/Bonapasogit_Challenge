@@ -9,7 +9,7 @@ class UjianController extends Controller
 {
     public function hasilUjian()
     {   
-        $ujians = DB::table('ujians')->get();
+        $ujians = DB::table('hasil_ujians')->get();
         return view('hasilUjian', ['hasil' => $ujians]);
     }
 }
