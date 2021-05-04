@@ -16,6 +16,7 @@ class CreateHasilUjiansTable extends Migration
         Schema::create('hasil_ujians', function (Blueprint $table) {
             $table->id();
             $table->string('username');
+            $table->string('name');
             $table->integer('benar');
             $table->integer('salah');
             $table->integer('kosong');

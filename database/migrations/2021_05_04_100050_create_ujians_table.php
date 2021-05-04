@@ -15,6 +15,8 @@ class CreateUjiansTable extends Migration
     {
         Schema::create('ujians', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->longText('description');
             $table->timestamps();
         });
     }
