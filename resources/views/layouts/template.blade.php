@@ -28,14 +28,14 @@
           <span class="badge badge-warning navbar-badge">3</span>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <span class="dropdown-item dropdown-header">3 Notifications</span>
+          <span class="dropdown-item dropdown-header">3 Notifikasi </span>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i> 3 new reports
-            <span class="float-right text-muted text-sm">2 days</span>
+            <i class="fas fa-file mr-2"></i> 3 Laporan baru
+            <span class="float-right text-muted text-sm">2 h</span>
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          <a href="#" class="dropdown-item dropdown-footer">Lihat semua</a>
         </div>
       </li>
       <li class="nav-item dropdown user-menu">
@@ -49,6 +49,7 @@
 
             <p>
               Fedrick Siagian
+              <small>Admin</small>
               <small>superiorsiagian@gmail.com</small>
             </p>
           </li>
@@ -68,7 +69,7 @@
 
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="#" class="brand-link">
-      <img src="{{ asset('foto/') }}/unnamed.png" alt="OMENT" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="{{ asset('foto/') }}/unnamed.png" alt="Bonapasogit" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Bonapasogit</span>
     </a>
     <div class="sidebar">
